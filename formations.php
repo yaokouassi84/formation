@@ -29,7 +29,7 @@
 			<div class="logo_container">
 				<div class="logo">
 					<img src="images/logo.png" alt="">
-					<span>course</span>
+					<span>Formations</span>
 				</div>
 			</div>
 
@@ -37,12 +37,12 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="index.html">home</a></li>
-						<li class="main_nav_item"><a href="#">about us</a></li>
+						<li class="main_nav_item"><a href="index.php">Accueil</a></li>
+						<li class="main_nav_item"><a href="#">A propos</a></li>
 						<li class="main_nav_item"><a href="#">courses</a></li>
 						<li class="main_nav_item"><a href="elements.html">elements</a></li>
 						<li class="main_nav_item"><a href="news.html">news</a></li>
-						<li class="main_nav_item"><a href="contact.html">contact</a></li>
+						<li class="main_nav_item"><a href="contact.php">contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -71,12 +71,12 @@
 		<div class="menu_inner menu_mm">
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
-					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
-					<li class="menu_item menu_mm"><a href="#">About us</a></li>
+					<li class="menu_item menu_mm"><a href="index.php">Accueil</a></li>
+					<li class="menu_item menu_mm"><a href="#">A propos</a></li>
 					<li class="menu_item menu_mm"><a href="#">Courses</a></li>
 					<li class="menu_item menu_mm"><a href="elements.html">Elements</a></li>
 					<li class="menu_item menu_mm"><a href="news.html">News</a></li>
-					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+					<li class="menu_item menu_mm"><a href="contact.php">Contact</a></li>
 				</ul>
 
 				<!-- Menu Social -->
@@ -105,7 +105,7 @@
 			<div class="home_background prlx" style="background-image:url(images/courses_background.jpg)"></div>
 		</div>
 		<div class="home_content">
-			<h1>Courses</h1>
+			<h1>Nos formations</h1>
 		</div>
 	</div>
 
@@ -116,7 +116,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title text-center">
-						<h1>Popular Courses</h1>
+						<h1>Cours populaires</h1>
 					</div>
 				</div>
 			</div>
@@ -128,14 +128,14 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">A complete guide to design</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Developpement Web</a></div>
+							<div class="card-text">Html5,CSS3,JavaScript(JQuery)</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
 								<img src="images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
 							</div>
-							<div class="course_author_name">Michael Smith, <span>Author</span></div>
+							<div class="course_author_name">Kouassi YAO, <span>Author</span></div>
 							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
 						</div>
 					</div>
@@ -146,8 +146,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Beginners guide to HTML</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Developpement Web</a></div>
+							<div class="card-text">PHP</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -164,8 +164,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Advanced Photoshop</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Base de donnéees</a></div>
+							<div class="card-text">MySQL (Débutant)</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -182,8 +182,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_4.jpg" alt="https://unsplash.com/@kellitungay">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">A complete guide to design</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Outils collaboratifs</a></div>
+							<div class="card-text">Git/Github</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -200,8 +200,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_5.jpg" alt="https://unsplash.com/@claybanks1989">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Beginners guide to HTML</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Analyses de données</a></div>
+							<div class="card-text">Power Bi</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -218,8 +218,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_6.jpg" alt="https://unsplash.com/@element5digital">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Advanced Photoshop</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Developpement d'applications</a></div>
+							<div class="card-text">Java Standard Edition</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -236,8 +236,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_7.jpg" alt="https://unsplash.com/@gaellemm">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">A complete guide to design</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Developement d'application Web</a></div>
+							<div class="card-text">Java EE (Jarkat EE)</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -254,8 +254,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_8.jpg" alt="https://unsplash.com/@juanmramosjr">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Beginners guide to HTML</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Developement d'application Web</a></div>
+							<div class="card-text">Spring Boot</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">
@@ -272,8 +272,8 @@
 					<div class="card">
 						<img class="card-img-top" src="images/course_9.jpg" alt="https://unsplash.com/@kimberlyfarmer">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Advanced Photoshop</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Developement d'application Logiciels</a></div>
+							<div class="card-text">Java, Hibernate, JPA ...</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
 							<div class="course_author_image">

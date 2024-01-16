@@ -45,7 +45,8 @@
 						<li class="main_nav_item"><a href="#">A propos</a></li>
 						<li class="main_nav_item"><a href="formations.php">Formations</a></li>
 						<li class="main_nav_item"><a href="elements.html">Services</a></li>
-						<li class="main_nav_item"><a href="news.html">Livres</a></li>
+						<!--<li class="main_nav_item"><a href="news.html">Livres</a></li>-->
+						<li class="main_nav_item"><a href="livres.php">Livres</a></li>
 						<li class="main_nav_item"><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
@@ -112,17 +113,17 @@
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
+					<div class="hero_slide_background" style="background-image:url(images/Bureau.png)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Hello <span> Bienvenu(e)</span> Go !</h1>
 						</div>
 					</div>
 				</div>
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
+					<div class="hero_slide_background" style="background-image:url(images/B1.jpg)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
 							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
@@ -142,8 +143,8 @@
 
 			</div>
 
-			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">prev</span></div>
-			<div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">next</span></div>
+			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">Retour</span></div>
+			<div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">Suivant</span></div>
 		</div>
 
 	</div>
@@ -157,8 +158,8 @@
 						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
 							<img src="images/earth-globe.svg" class="svg" alt="">
 							<div class="hero_box_content">
-								<h2 class="hero_box_title">Online Courses</h2>
-								<a href="courses.html" class="hero_box_link">view more</a>
+								<h2 class="hero_box_title">Formations</h2>
+								<a href="courses.html" class="hero_box_link">Plus de détails</a>
 							</div>
 						</div>
 					</div>
@@ -167,8 +168,8 @@
 						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
 							<img src="images/books.svg" class="svg" alt="">
 							<div class="hero_box_content">
-								<h2 class="hero_box_title">Our Library</h2>
-								<a href="courses.html" class="hero_box_link">view more</a>
+								<h2 class="hero_box_title">Ma librairie</h2>
+								<a href="courses.html" class="hero_box_link">Decouvrons la</a>
 							</div>
 						</div>
 					</div>
