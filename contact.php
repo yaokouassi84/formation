@@ -40,10 +40,10 @@
 					<ul class="main_nav_list">
 						<li class="main_nav_item"><a href="index.php">Accueil</a></li>
 						<li class="main_nav_item"><a href="#">about us</a></li>
-						<li class="main_nav_item"><a href="courses.html">courses</a></li>
-						<li class="main_nav_item"><a href="elements.html">elements</a></li>
-						<li class="main_nav_item"><a href="news.html">news</a></li>
-						<li class="main_nav_item"><a href="#">contact</a></li>
+						<li class="main_nav_item"><a href="formations.php">Formations</a></li>
+						<li class="main_nav_item"><a href="livres.php">Livres</a></li>
+						<li class="main_nav_item"><a href="elements.html">Services</a></li>
+						<li class="main_nav_item"><a href="contact.php">contact</a></li>
 					</ul>
 				</div>
 			</nav>
