@@ -70,7 +70,7 @@
 					<!-- Footer Column - Usefull Links -->
 
 					<div class="col-lg-3 footer_col">
-						<div class="footer_column_title">mes liens utiles</div>
+						<div class="footer_column_title">Mes liens utiles</div>
 						<div class="footer_column_content">
 							<ul>
 								<li class="footer_list_item"><a href="#">Testimonials</a></li>
@@ -117,7 +117,7 @@
 			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
 				<div class="footer_copyright">
 					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Conçu et developpé  <i class="fa fa-heart" aria-hidden="true"></i> par <a href="" target="_blank">Dev-Tech</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Conçu et developpé  <i class="fa fa-heart" aria-hidden="true"></i> par Dev-Tech
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
 				</div>
 				<div class="footer_social ml-sm-auto">

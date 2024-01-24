@@ -7,7 +7,7 @@
 				<div class="main_nav">
 					<ul class="main_nav_list">
 						<li class="main_nav_item"><a href="index.php">Accueil</a></li>
-						<li class="main_nav_item"><a href="#">A propos</a></li>
+						<li class="main_nav_item"><a href="apropos.php">A propos</a></li>
 						<li class="main_nav_item"><a href="formations.php">Formations</a></li>
 						<li class="main_nav_item"><a href="elements.php">Services</a></li>
 						<!--<li class="main_nav_item"><a href="news.html">Livres</a></li>-->

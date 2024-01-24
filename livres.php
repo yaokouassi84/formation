@@ -129,8 +129,8 @@ $connexion = null;
 
     <!-- Popular -->
 
-    <?php include("partieLivres.php"); ?>
-
+    <!--<?php include("partieLivres.php"); ?>-->
+    <?php include("pagination.php"); ?>
     <!-- Footer -->
 
     <footer class="footer">
