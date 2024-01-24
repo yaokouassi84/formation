@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
 </head>
 <body>
@@ -101,23 +102,53 @@
 	</div>
 
 	<!-- Contact -->
+	<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h2 class="text-center mb-4">Formulaire de Contact</h2>
+            <form action="contact_traitement.php" method="post">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" class="form-control" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" class="form-control" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail :</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="sujet">Sujet :</label>
+                    <input type="text" class="form-control" id="sujet" name="sujet" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </div>
+</div>
 
-	<div class="contact">
+	<!--<div class="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
 					
-					<!-- Contact Form -->
+					
 					<div class="contact_form">
 						<div class="contact_title">Formulaire de contact</div>
 
 						<div class="contact_form_container">
-							<form action="post">
-								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nom" required="required" data-error="Name is required.">
-                                <input id="contact_form_prenom" class="input_field contact_form_name" type="text" placeholder="Prénom" required="required" data-error="Name is required.">                                
-								<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+							<form action="contact_traitement.php" method="post">
+								<input id="contact_form_name" class="input_field contact_form_name" name="nom" type="text" placeholder="Nom" required="required" data-error="Name is required.">
+                                <input id="contact_form_prenom" class="input_field contact_form_name" name="prenom" type="text" placeholder="Prénom" required="required" data-error="Name is required.">                                
+								<input id="contact_form_email" class="input_field contact_form_email" name="email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
                                 
-								<input id="contact_form_sujet" class="input_field contact_form_email" type="text" placeholder="Sujet" required="required" data-error="Sujet Invalide">
+								<input id="contact_form_sujet" class="input_field contact_form_email" name="sujet" type="text" placeholder="Sujet" required="required" data-error="Sujet Invalide">
 								<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
 								<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">Envoyer votre message</button>
 							</form>
@@ -129,7 +160,7 @@
 			</div>			
 
 		</div>
-	</div>
+	</div>-->
 
 	<!-- Footer -->
 
@@ -148,6 +179,9 @@
 <script src="plugins/greensock/animation.gsap.min.js"></script>
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
 <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>

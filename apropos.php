@@ -29,7 +29,7 @@
 			<div class="logo_container">
 				<div class="logo">
 					<img src="images/logo.png" alt="">
-					<span>Cours</span>
+					<span>Infos</span>
 				</div>
 			</div>
 
