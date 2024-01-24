@@ -1,5 +1,5 @@
 <?php
-$serveur = "localhost"; 
+/*$serveur = "localhost"; 
 $utilisateur = "root"; 
 $motDePasse = ""; 
 $baseDeDonnees = "formation"; 
@@ -28,6 +28,7 @@ while ($row = $resultat->fetch()) {
 }
 
 $connexion = null;
+*/
 
 ?>
 <!DOCTYPE html>
@@ -128,40 +129,7 @@ $connexion = null;
 
     <!-- Popular -->
 
-    <div class="popular page_section">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="section_title text-center">
-                        <h1>Ressources utiles</h1>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row course_boxes">       
-              
-             <div class="col-lg-4 course_box">
-                    <div class="card">
-                        <img class="card-img-top" src="images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-                        <div class="card-body text-center">
-                            <div class="card-title"><a href="courses.html">Developpement Web</a></div>
-                            <div class="card-text">Html5,CSS3,JavaScript(JQuery)</div>
-                        </div>
-                        <div class="price_box d-flex flex-row align-items-center">
-                            <div class="course_author_image">
-                                <img src="images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
-                            </div>
-                            <div class="course_author_name">Kouassi YAO, <span>Author</span></div>
-                            <div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
-                        </div>
-                    </div>
-                </div>   
-                
-
-    
-            </div>
-        </div>      
-    </div>
+    <?php include("partieLivres.php"); ?>
 
     <!-- Footer -->
 

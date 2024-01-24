@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title text-center">
-							<h1>Subscribe to newsletter</h1>
+							<h1>Suivez nous</h1>
 						</div>
 					</div>
 				</div>
@@ -22,8 +22,8 @@
 						<div class="newsletter_form_container mx-auto">
 							<form action="post">
 								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
-									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
-									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
+									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Votre adresse mail" required="required" data-error="Valid email is required.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Votre mail</button>
 								</div>
 							</form>
 						</div>
@@ -48,7 +48,7 @@
 							</div>
 						</div>
 
-						<p class="footer_about_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum, tempor lacus.</p>
+						<p class="footer_about_text">Dev-Tech: Developpeur et Technicien Infomatique, de passion, je ne cesse d'apprendre.</p>
 
 					</div>
 
@@ -70,7 +70,7 @@
 					<!-- Footer Column - Usefull Links -->
 
 					<div class="col-lg-3 footer_col">
-						<div class="footer_column_title">Usefull Links</div>
+						<div class="footer_column_title">mes liens utiles</div>
 						<div class="footer_column_content">
 							<ul>
 								<li class="footer_list_item"><a href="#">Testimonials</a></li>
@@ -98,12 +98,12 @@
 									<div class="footer_contact_icon">
 										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
-									0034 37483 2445 322
+									07 68 72 37 66
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
 										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
-									</div>hello@company.com
+									</div>yaobozi@gmx.fr
 								</li>
 							</ul>
 						</div>
@@ -117,7 +117,7 @@
 			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
 				<div class="footer_copyright">
 					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Conçu et developpé  <i class="fa fa-heart" aria-hidden="true"></i> par <a href="" target="_blank">Dev-Tech</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
 				</div>
 				<div class="footer_social ml-sm-auto">

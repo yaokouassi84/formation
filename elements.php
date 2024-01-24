@@ -1,7 +1,15 @@
+<?php
+
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Course - Elements</title>
+<title>Dev-Tech Services</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Course Project">
@@ -29,16 +37,7 @@
 
 			<!-- Main Navigation -->
 			<nav class="main_nav_container">
-				<div class="main_nav">
-					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="index.html">home</a></li>
-						<li class="main_nav_item"><a href="#">about us</a></li>
-						<li class="main_nav_item"><a href="courses.html">courses</a></li>
-						<li class="main_nav_item"><a href="#">elements</a></li>
-						<li class="main_nav_item"><a href="news.html">news</a></li>
-						<li class="main_nav_item"><a href="contact.html">contact</a></li>
-					</ul>
-				</div>
+				<?php include("navbar.php"); ?> 
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
