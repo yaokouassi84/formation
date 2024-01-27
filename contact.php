@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Contact - Contact</title>
+<title>Dev-Tech - Contact</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Course Project">
@@ -108,23 +108,23 @@
             <h2 class="text-center mb-4">Formulaire de Contact</h2>
             <form action="contact_traitement.php" method="post">
                 <div class="form-group">
-                    <label for="nom">Nom :</label>
+                    <label for="nom">Nom </label>
                     <input type="text" class="form-control" id="nom" name="nom" required>
                 </div>
                 <div class="form-group">
-                    <label for="prenom">Prénom :</label>
+                    <label for="prenom">Prénom </label>
                     <input type="text" class="form-control" id="prenom" name="prenom" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">E-mail :</label>
+                    <label for="email">E-mail </label>
                     <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="sujet">Sujet :</label>
+                    <label for="sujet">Sujet </label>
                     <input type="text" class="form-control" id="sujet" name="sujet" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">Message :</label>
+                    <label for="message">Message </label>
                     <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Envoyer</button>

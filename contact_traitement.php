@@ -10,6 +10,7 @@
 <h2>Liste des Livres</h2>
 
 <?php
+
 // Vérifie si la requête est une requête POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupère les données du formulaire
@@ -21,6 +22,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Ajoutez la date actuelle
     $date = date("Y-m-d H:i:s");
+
+    // Validation pour le champ nom
+    if (!preg_match("/^[a-zA-Z]+$/", $nom)) {
+        // Gérer l'erreur pour un nom invalide
+        die("Erreur : Le nom n'est pas valide.");
+    }
+
+    // Validation pour le champ prenom
+    if (!preg_match("/^[a-zA-Z]+$/", $prenom)) {
+        // Gérer l'erreur pour un prénom invalide
+        die("Erreur : Le prénom n'est pas valide.");
+    }
+
+    // Validation d'email (exemple basique)
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Gérer l'erreur pour une adresse e-mail invalide
+        die("Erreur : L'adresse e-mail n'est pas valide.");
+    }
+
+    // Validation pour le champ prenom
+    if (!preg_match("/^[a-zA-Z]+$/", $sujet)) {
+        // Gérer l'erreur pour un sujet invalide
+        die("Erreur : Le sujet n'est pas valide.");
+    }
+
+    // Utilisation de preg_match pour valider le champ "message"
+if (!preg_match("/^[a-zA-Z0-9\n -]+$/", $_POST["message"])) {
+    // Gérer l'erreur pour un champ "message" invalide
+    die("Erreur : Le champ message n'est pas valide.");
+}
+
+// Utilisation de strip_tags pour supprimer les balises HTML du champ "message"
+$message = strip_tags($_POST["message"]);
 
     // Paramètres de connexion à la base de données (remplacez les valeurs par les vôtres)
     $serveur = "localhost";

@@ -3,8 +3,7 @@
         <div class="row">
             <div class="col">
                 <div class="section_title text-center">
-                    <h1>Des livres peuvent toujours nous servir</h1>                                                       
-               </div>
+                    <h1>Nos livres Web</h1>
                 </div>
             </div>
         </div>
@@ -22,7 +21,8 @@
                 $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                 // Requête pour récupérer les informations sur les livres
-                $requete = "SELECT image_livre,nom_livre,categorie_livre, auteur, nb_Pages FROM Livres WHERE image_livre IS NOT NULL";
+                $requete = "SELECT image_livre, nom_livre, categorie_livre, auteur, nb_Pages FROM Livres WHERE categorie_livre ='Front-End'";
+
                 $resultat = $connexion->query($requete);
 
                 $chemin_upload = '/formation/photosLivres/';

@@ -100,7 +100,7 @@
 
     <!-- Popular -->
     
-    <?php include("pagination.php"); ?>
+    <?php include("paginationWeb.php"); ?>
     <!-- Footer -->
 
     <footer class="footer">

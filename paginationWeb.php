@@ -6,7 +6,7 @@
                     <h1>
                        <div class="main_nav">
                     <ul class="main_nav_list">
-                        <li class="main_nav_item"><a href="livresWeb.php">Front-End</a></li>
+                        <li class="main_nav_item"><a href="livres.php">Tous</a></li>
                         <li class="main_nav_item"><a href="livresJava.php">Back-End</a></li>
                         <li class="main_nav_item"><a href="autres.php">Autres</a></li>
                         
@@ -35,10 +35,12 @@
                 $pageCourante = isset($_GET['page']) ? $_GET['page'] : 1; // Page actuelle, par défaut 1
                 $depart = ($pageCourante - 1) * $livresParPage; // L'index de départ pour la requête SQL
 
+                //$requete = "SELECT image_livre, nom_livre, categorie_livre, auteur, nb_Pages FROM Livres WHERE categorie_livre ='Front-End'";
+
                 // Requête pour récupérer les informations sur les livres avec pagination
                 $requete = "SELECT image_livre,nom_livre,categorie_livre, auteur, nb_Pages 
                             FROM Livres 
-                            WHERE image_livre IS NOT NULL
+                            WHERE categorie_livre ='Front-End'
                             LIMIT :depart, :livresParPage";
                 $statement = $connexion->prepare($requete);
                 $statement->bindValue(':depart', $depart, PDO::PARAM_INT);
@@ -77,7 +79,7 @@
                 }
 
                 // Pagination
-                $requeteTotalLivres = "SELECT COUNT(*) as total FROM Livres WHERE image_livre IS NOT NULL";
+                $requeteTotalLivres = "SELECT COUNT(*) as total FROM Livres WHERE categorie_livre ='Front-End'";
                 $statementTotalLivres = $connexion->query($requeteTotalLivres);
                 $totalLivres = $statementTotalLivres->fetch()['total'];
                 $nombrePages = ceil($totalLivres / $livresParPage);
