@@ -1,8 +1,15 @@
 <?php
+//$serveur = "localhost";
+//$utilisateur = "root";
+//$motDePasse = "";
+//$baseDeDonnees = "formation";
+
+
+
 $serveur = "localhost";
-$utilisateur = "root";
-$motDePasse = "";
-$baseDeDonnees = "formation";
+$utilisateur = "yaoko2276746";
+$motDePasse = "Nocaise2015@1!";
+$baseDeDonnees = "yaoko2276746";
 
 try {
     // Connexion à la base de données avec PDO

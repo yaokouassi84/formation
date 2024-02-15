@@ -12,10 +12,10 @@
 <?php
 
 
-$serveur = "localhost"; // Adresse du serveur MySQL
-$utilisateur = "root"; // Nom d'utilisateur MySQL
-$motDePasse = ""; // Mot de passe MySQL
-$baseDeDonnees = "formation"; // Nom de la base de données
+$serveur = "localhost";
+$utilisateur = "yaoko2276746";
+$motDePasse = "Nocaise2015@1!";
+$baseDeDonnees = "yaoko2276746";
 
 try {
     // Connexion à la base de données avec PDO

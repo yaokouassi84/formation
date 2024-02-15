@@ -58,9 +58,9 @@ $message = strip_tags($_POST["message"]);
 
     // Paramètres de connexion à la base de données (remplacez les valeurs par les vôtres)
     $serveur = "localhost";
-    $utilisateur = "root";
-    $motDePasse = "";
-    $baseDeDonnees = "formation";
+$utilisateur = "yaoko2276746";
+$motDePasse = "Nocaise2015@1!";
+$baseDeDonnees = "yaoko2276746";
 
     try {
         // Connexion à la base de données avec PDO

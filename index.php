@@ -38,8 +38,19 @@
 			</div>
 
 			<!-- Main Navigation -->
-			<nav class="main_nav_container">
-				<?php include("navbar.php"); ?> 
+			<nav class="main_nav_container">			
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.php">Accueil</a></li>
+						<li class="main_nav_item"><a href="apropos.php">A propos</a></li>
+						<li class="main_nav_item"><a href="formations.php">Formations</a></li>
+						<li class="main_nav_item"><a href="elements.php">Services</a></li>
+						<!--<li class="main_nav_item"><a href="news.html">Livres</a></li>-->
+						<li class="main_nav_item"><a href="livres.php">Livres</a></li>
+						<li class="main_nav_item"><a href="contact.php">Contact</a></li>
+					</ul>
+				</div>
+
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
